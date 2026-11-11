@@ -116,3 +116,48 @@ p {
     align-self: flex-end;
     font-weight: bold;
 }
+
+.register {
+    padding: 80px 200px;
+}
+
+.register .container {
+    background-color: #a88fac;
+    border: none;
+    border-radius: 25px;
+    display: flex;
+    padding: 15px 50px;
+    justify-content: space-between;
+}
+
+h3 {
+    color: #f9f5f5;
+    font-size: 20px;
+    margin-bottom: 8px;
+    font-weight: bolder;
+}
+
+.register .container .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.text p {
+    font-size: 18px;
+    
+}
+
+.container .btn {
+    min-width: 85px;
+    max-height: 25px;
+    align-self: center;
+    text-align: center;
+}
+
+.footer {
+    background-color: #826C7F;
+    padding: 25px 200px;
+    text-align: center;
+    color: #f1ecec;
+}
+
